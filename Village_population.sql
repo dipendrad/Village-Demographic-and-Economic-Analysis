@@ -167,7 +167,7 @@ FROM village_population;
  SUM(income_of_family) AS total_income ,SUM(total_population) AS total_Population
  FROM village_population;
  
- -- Query to count the number of families in each income class
+ -- 20.Query to count the number of families in each income class
 SELECT 
     CASE
         WHEN income_of_family < 9000 THEN 'Poverty Class'
